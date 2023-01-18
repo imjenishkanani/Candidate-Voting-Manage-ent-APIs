@@ -1,0 +1,14 @@
+Project Design:
+	-> Entity - Contains Schema(Model) of Candidate.
+	-> Controller - Contains Controller class. 
+	-> Service - Contains Service interface for methods
+	-> ServiceImpl - Contains Implementation(Logic) methods of the Service interface 
+
+----------------------------------------------------------------------------------------------
+
+Architectute :
+
+		   [HTTPS]                                                                    
+	Client <------> Controller <---> Service Layer <---> Service Implimentation Layer <-DB-> Model
+		   [request]														   
+																              
